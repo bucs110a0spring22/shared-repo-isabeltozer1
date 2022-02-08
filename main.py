@@ -1,1 +1,1 @@
-
+mylist = (input(A number))
