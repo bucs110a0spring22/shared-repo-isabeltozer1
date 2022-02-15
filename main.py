@@ -1,15 +1,15 @@
 
 import turtle
-my_turtle = turtle.Turtle()
-my_turtle.shape("turtle")
-my_turtle.color("purple")
-my_turtle.forward(50)
-my_turtle.left(90)
-my_turtle.forward(50)
-my_turtle.left(90)
-my_turtle.forward(50)
-my_turtle.left(90)
-my_turtle.forward(50)
+
+number_of_sides= int(input("Enter number of sides"))
+length_of_each_side = int(input("Enter length of each side"))
+henry = turtle.Turtle()
+henry.color("yellow")
+
+for i in range(number_of_sides):
+
+   henry.forward(length_of_each_side)
+   henry.left(360/number_of_sides)
 
 Window = turtle.Screen()
 Window.bgcolor("orange")
